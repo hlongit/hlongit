@@ -21,17 +21,14 @@ const hlong = {
   handle:    "hlongit",
   school:    "VNU-HCMUT — IET-08",
   major:     ["Software Engineering", "Artificial Intelligence"],
-  year:      "Sophomore (dual-major)",
-  site:      "https://rihikaku.net/",
-  nerdAbout: ["aviation", "the F-15 Eagle", "reinforcement learning"],
-  currently: "training agents that are better at sudoku than I am",
+  site:      "https://rhikaku.net/",
+  nerdAbout: ["aviation", "virtual companion", "reinforcement learning", "plugin architecture"],
+  quote:"there's a fine line between bravery and stupidity, and half of the time, i'm the latter",
 } as const;
 ```
 
 <div align="center">
 
-> Sophomore studying a dual-major in **Software Engineering** and **Artificial Intelligence**.
-> Also an **#AviationNerd** btw. Do you like the F-15 Eagle?
 
 [![Website](https://img.shields.io/badge/rihikaku.net-0d1117?style=for-the-badge&logo=googlechrome&logoColor=7ee787)](https://rihikaku.net/)
 [![GitHub](https://img.shields.io/badge/hlongit-0d1117?style=for-the-badge&logo=github&logoColor=e6edf3)](https://github.com/hlongit)
@@ -68,60 +65,6 @@ const hlong = {
 
 </div>
 
-## &nbsp;📌&nbsp; Pinned work
-
-<div align="center">
-
-<a href="https://github.com/hlongit/WaveSync">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hlongit&repo=WaveSync&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7ee787&icon_color=3fb950" alt="WaveSync">
-</a>
-<a href="https://github.com/hlongit/sudoku-bench-replication">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hlongit&repo=sudoku-bench-replication&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7ee787&icon_color=3fb950" alt="sudoku-bench-replication">
-</a>
-<a href="https://github.com/hlongit/policy-gradient-for-reinforcement-learning">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hlongit&repo=policy-gradient-for-reinforcement-learning&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7ee787&icon_color=3fb950" alt="policy-gradient-for-reinforcement-learning">
-</a>
-<a href="https://github.com/hlongit/hlongit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hlongit&repo=hlongit&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7ee787&icon_color=3fb950" alt="hlongit">
-</a>
-
-</div>
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**`WaveSync`** &nbsp;`C#`
-
-Collaborative music experience for `.NET` — university group project, **IET-008 · Group 14**. Real-time sync, shared sessions, distributed goodness.
-
-</td>
-<td valign="top" width="50%">
-
-**`sudoku-bench-replication`** &nbsp;`JavaScript`
-
-An honest replication of the **Sudoku-Bench** experiment, pitting frontier LLMs against a problem humans find trivially boring and models find surprisingly hard.
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-**`policy-gradient-for-reinforcement-learning`** &nbsp;`Jupyter`
-
-Working through policy-gradient methods from first principles — REINFORCE, baselines, actor-critic, and the variance-reduction tricks that make them behave.
-
-</td>
-<td valign="top" width="50%">
-
-**`hlongit`** &nbsp;`Markdown`
-
-This repo. The one you're reading right now — where the pixels happen.
-
-</td>
-</tr>
-</table>
-
 ## &nbsp;📊&nbsp; By the numbers
 
 <div align="center">
@@ -137,12 +80,6 @@ This repo. The one you're reading right now — where the pixels happen.
 
 <a href="https://github.com/hlongit">
   <img src="https://streak-stats.demolab.com?user=hlongit&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=3FB950&fire=7EE787&currStreakLabel=7EE787" alt="Contribution streak">
-</a>
-
-<br>
-
-<a href="https://github.com/hlongit">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hlongit&bg_color=0D1117&color=7EE787&line=3FB950&point=E6EDF3&area=true&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph">
 </a>
 
 </div>
@@ -167,7 +104,7 @@ See <a href="./ATTRIBUTION.md">ATTRIBUTION.md</a>.</i></sub>
 <tr>
 <td valign="top" width="50%">
 
-**The F-15 Eagle.** Twin-engine, twin-tail, undefeated air-to-air record. A 1960s airframe that is *still* the benchmark. There is a lesson in there about engineering margins — and about what "good enough" means when the customer is a pilot.
+**The F-15 Eagle.** Twin-engine, twin-tail, undefeated air-to-air record. A 1960s airframe that is *still* the benchmark. There is a lesson in there about engineering margins ~ and about what "good enough" means when the customer is a pilot.
 
 </td>
 <td valign="top" width="50%">
