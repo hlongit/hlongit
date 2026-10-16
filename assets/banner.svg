@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 240" width="1180" height="240" role="img" aria-label="H L O N G — software engineering  ×  artificial intelligence">
+  <defs>
+    <linearGradient id="auroraA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#39d353" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="auroraB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.42"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e6edf3" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#e6edf3" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#e6edf3" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#e6edf3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="42%" stop-color="#7ee787"/>
+      <stop offset="72%" stop-color="#39d353"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+      <animate attributeName="x1" values="-0.35;1.15" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1.5" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.9"/>
+      <stop offset="38%" stop-color="#39d353" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.42" r="0.78">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1180" height="240" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1180" height="240" fill="#0d1117"/>
+
+    <g>
+      <ellipse cx="236" cy="24" rx="649" ry="204" fill="url(#auroraA)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 62 -16; 0 0" dur="17s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+      </ellipse>
+      <ellipse cx="1014.8" cy="216" rx="590" ry="192" fill="url(#auroraB)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -54 14; 0 0" dur="21s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+      </ellipse>
+    </g>
+
+    <circle cx="609.3" cy="77" r="0.66" fill="#e6edf3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.09;0.35" dur="3.08s" begin="1.55s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="538.1" cy="112.7" r="1.3" fill="#e6edf3" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.15;0.62" dur="3.95s" begin="0.32s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1114.3" cy="153.1" r="1.38" fill="#e6edf3" opacity="0.46">
+      <animate attributeName="opacity" values="0.46;0.12;0.46" dur="3.98s" begin="4.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1093.8" cy="129.2" r="0.66" fill="#e6edf3" opacity="0.57">
+      <animate attributeName="opacity" values="0.57;0.14;0.57" dur="3.44s" begin="4.26s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="413.9" cy="203.9" r="1.3" fill="#e6edf3" opacity="0.33">
+      <animate attributeName="opacity" values="0.33;0.08;0.33" dur="3.85s" begin="3.12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="701.5" cy="220.6" r="0.53" fill="#e6edf3" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.17;0.68" dur="3.88s" begin="1.45s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="935.6" cy="154.6" r="0.79" fill="#e6edf3" opacity="0.53">
+      <animate attributeName="opacity" values="0.53;0.13;0.53" dur="5.83s" begin="0.56s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="225.8" cy="122.1" r="1.34" fill="#e6edf3" opacity="0.31">
+      <animate attributeName="opacity" values="0.31;0.08;0.31" dur="2.41s" begin="1.81s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="794.6" cy="207" r="0.55" fill="#e6edf3" opacity="0.26">
+      <animate attributeName="opacity" values="0.26;0.07;0.26" dur="4.41s" begin="2.12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="654.9" cy="92.2" r="0.64" fill="#e6edf3" opacity="0.31">
+      <animate attributeName="opacity" values="0.31;0.08;0.31" dur="2.89s" begin="4.64s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="596.5" cy="27.1" r="1.08" fill="#e6edf3" opacity="0.75">
+      <animate attributeName="opacity" values="0.75;0.19;0.75" dur="5.21s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="752.2" cy="82.6" r="0.86" fill="#e6edf3" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.11;0.45" dur="4.22s" begin="3.37s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="579" cy="147.7" r="1.45" fill="#e6edf3" opacity="0.39">
+      <animate attributeName="opacity" values="0.39;0.10;0.39" dur="2.49s" begin="2.88s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="57.2" cy="144.3" r="0.75" fill="#e6edf3" opacity="0.33">
+      <animate attributeName="opacity" values="0.33;0.08;0.33" dur="4.59s" begin="1.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="516.1" cy="65.9" r="1.32" fill="#e6edf3" opacity="0.74">
+      <animate attributeName="opacity" values="0.74;0.18;0.74" dur="5.01s" begin="0.71s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1153.2" cy="61.9" r="0.55" fill="#e6edf3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.09;0.35" dur="4.4s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="950.7" cy="159.8" r="0.44" fill="#e6edf3" opacity="0.61">
+      <animate attributeName="opacity" values="0.61;0.15;0.61" dur="5.57s" begin="3.23s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1153.1" cy="117.7" r="0.52" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="3.31s" begin="3.59s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="386.9" cy="175" r="0.48" fill="#e6edf3" opacity="0.74">
+      <animate attributeName="opacity" values="0.74;0.18;0.74" dur="4.37s" begin="0.48s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="587.7" cy="238.5" r="0.85" fill="#e6edf3" opacity="0.24">
+      <animate attributeName="opacity" values="0.24;0.06;0.24" dur="3.86s" begin="1.49s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1100.3" cy="12.9" r="0.84" fill="#e6edf3" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.10;0.4" dur="3.47s" begin="0.71s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="982.1" cy="158.1" r="1.15" fill="#e6edf3" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.15;0.62" dur="5.17s" begin="0.81s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1129.3" cy="24.8" r="1.43" fill="#e6edf3" opacity="0.28">
+      <animate attributeName="opacity" values="0.28;0.07;0.28" dur="4.06s" begin="4.33s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="946.3" cy="233.4" r="0.87" fill="#e6edf3" opacity="0.18">
+      <animate attributeName="opacity" values="0.18;0.04;0.18" dur="3.94s" begin="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="489.5" cy="212.3" r="0.76" fill="#e6edf3" opacity="0.51">
+      <animate attributeName="opacity" values="0.51;0.13;0.51" dur="5.7s" begin="3.49s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="734.3" cy="196.1" r="0.71" fill="#e6edf3" opacity="0.41">
+      <animate attributeName="opacity" values="0.41;0.10;0.41" dur="2.93s" begin="1.94s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="265.9" cy="6.8" r="0.48" fill="#e6edf3" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.17;0.68" dur="4.54s" begin="0.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="840.2" cy="52.4" r="1.31" fill="#e6edf3" opacity="0.36">
+      <animate attributeName="opacity" values="0.36;0.09;0.36" dur="5.74s" begin="4.29s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="167.4" cy="24.6" r="1.18" fill="#e6edf3" opacity="0.27">
+      <animate attributeName="opacity" values="0.27;0.07;0.27" dur="3.35s" begin="4.11s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1004.9" cy="131.3" r="0.48" fill="#e6edf3" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.17;0.68" dur="2.92s" begin="1.08s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="105.8" cy="32.2" r="1.23" fill="#e6edf3" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.14s" begin="4.45s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="720.2" cy="17.3" r="1.2" fill="#e6edf3" opacity="0.64">
+      <animate attributeName="opacity" values="0.64;0.16;0.64" dur="2.41s" begin="2.44s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1071.8" cy="207.2" r="0.77" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="5.2s" begin="0.24s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="548.6" cy="143.6" r="0.98" fill="#e6edf3" opacity="0.65">
+      <animate attributeName="opacity" values="0.65;0.16;0.65" dur="5.75s" begin="4.87s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="390.6" cy="212.3" r="1.35" fill="#e6edf3" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.14;0.58" dur="4.08s" begin="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1152.8" cy="68.8" r="0.92" fill="#e6edf3" opacity="0.24">
+      <animate attributeName="opacity" values="0.24;0.06;0.24" dur="5s" begin="3.41s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1073" cy="229.2" r="0.86" fill="#e6edf3" opacity="0.23">
+      <animate attributeName="opacity" values="0.23;0.06;0.23" dur="4.07s" begin="2.76s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="660.6" cy="226.8" r="0.94" fill="#e6edf3" opacity="0.76">
+      <animate attributeName="opacity" values="0.76;0.19;0.76" dur="5.84s" begin="4.33s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="987.1" cy="217.9" r="1.22" fill="#e6edf3" opacity="0.19">
+      <animate attributeName="opacity" values="0.19;0.05;0.19" dur="2.47s" begin="4.92s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="190.2" cy="202.6" r="1.25" fill="#e6edf3" opacity="0.56">
+      <animate attributeName="opacity" values="0.56;0.14;0.56" dur="2.89s" begin="2.65s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="473.8" cy="28.4" r="1.19" fill="#e6edf3" opacity="0.26">
+      <animate attributeName="opacity" values="0.26;0.07;0.26" dur="3.7s" begin="2.88s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="295.5" cy="177.6" r="1.44" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="5.03s" begin="0.85s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="335" cy="42.1" r="1.38" fill="#e6edf3" opacity="0.29">
+      <animate attributeName="opacity" values="0.29;0.07;0.29" dur="4.23s" begin="2.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="940.1" cy="128" r="0.6" fill="#e6edf3" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.13;0.5" dur="3.92s" begin="1.32s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="817.9" cy="54.4" r="1" fill="#e6edf3" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.15;0.62" dur="5.73s" begin="2.32s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="529.4" cy="41.6" r="0.47" fill="#e6edf3" opacity="0.47">
+      <animate attributeName="opacity" values="0.47;0.12;0.47" dur="5.39s" begin="0.49s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1144.7" cy="188.9" r="0.64" fill="#e6edf3" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.11;0.45" dur="2.91s" begin="1.01s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1126.4" cy="61.5" r="0.72" fill="#e6edf3" opacity="0.63">
+      <animate attributeName="opacity" values="0.63;0.16;0.63" dur="5.54s" begin="0.13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="481.6" cy="15.3" r="1.2" fill="#e6edf3" opacity="0.22">
+      <animate attributeName="opacity" values="0.22;0.06;0.22" dur="4s" begin="4.32s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="974.5" cy="152.2" r="0.44" fill="#e6edf3" opacity="0.63">
+      <animate attributeName="opacity" values="0.63;0.16;0.63" dur="4.15s" begin="3.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1072.7" cy="70.6" r="1.09" fill="#e6edf3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.09;0.35" dur="4.85s" begin="2.94s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="272.5" cy="119.8" r="1.06" fill="#e6edf3" opacity="0.33">
+      <animate attributeName="opacity" values="0.33;0.08;0.33" dur="4.02s" begin="2.83s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1065.4" cy="142.3" r="1.22" fill="#e6edf3" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.14;0.58" dur="3.42s" begin="2.01s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="22.1" cy="101.1" r="0.93" fill="#e6edf3" opacity="0.41">
+      <animate attributeName="opacity" values="0.41;0.10;0.41" dur="3.96s" begin="1.49s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="408.8" cy="181.3" r="0.62" fill="#e6edf3" opacity="0.75">
+      <animate attributeName="opacity" values="0.75;0.19;0.75" dur="5.32s" begin="2.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="705.1" cy="105.6" r="1.11" fill="#e6edf3" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.13;0.5" dur="5.77s" begin="2.14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="99" cy="123.7" r="0.77" fill="#e6edf3" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.15;0.62" dur="5.89s" begin="3.52s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="266.6" cy="51.8" r="0.95" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="5.43s" begin="0.57s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="533.8" cy="117.2" r="0.98" fill="#e6edf3" opacity="0.61">
+      <animate attributeName="opacity" values="0.61;0.15;0.61" dur="5.32s" begin="0.39s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1017.3" cy="100.2" r="1.45" fill="#e6edf3" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.11;0.45" dur="2.76s" begin="0.54s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1107.7" cy="218.9" r="0.92" fill="#e6edf3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.09;0.35" dur="5.38s" begin="4.26s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="720.7" cy="47.4" r="0.49" fill="#e6edf3" opacity="0.26">
+      <animate attributeName="opacity" values="0.26;0.07;0.26" dur="3.59s" begin="3.16s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1037.7" cy="74.5" r="0.55" fill="#e6edf3" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.10;0.4" dur="3.47s" begin="4.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="744.8" cy="119.9" r="0.69" fill="#e6edf3" opacity="0.32">
+      <animate attributeName="opacity" values="0.32;0.08;0.32" dur="5.44s" begin="2.14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="504.5" cy="218.8" r="0.88" fill="#e6edf3" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.11;0.45" dur="2.93s" begin="2.09s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="828.2" cy="147.5" r="1.13" fill="#e6edf3" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;0.14;0.55" dur="2.59s" begin="0.61s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="97.6" cy="37.6" r="1.31" fill="#e6edf3" opacity="0.38">
+      <animate attributeName="opacity" values="0.38;0.10;0.38" dur="3.7s" begin="4.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="720.6" cy="54.4" r="0.59" fill="#e6edf3" opacity="0.75">
+      <animate attributeName="opacity" values="0.75;0.19;0.75" dur="3.4s" begin="0.26s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="839.4" cy="112.4" r="0.67" fill="#e6edf3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.09;0.35" dur="3.9s" begin="4.53s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="519.4" cy="190" r="1.02" fill="#e6edf3" opacity="0.39">
+      <animate attributeName="opacity" values="0.39;0.10;0.39" dur="3.48s" begin="2.99s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="824.6" cy="34.4" r="0.77" fill="#e6edf3" opacity="0.56">
+      <animate attributeName="opacity" values="0.56;0.14;0.56" dur="3.18s" begin="2.49s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="801.5" cy="195.7" r="0.73" fill="#e6edf3" opacity="0.27">
+      <animate attributeName="opacity" values="0.27;0.07;0.27" dur="5.4s" begin="0.84s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="539.6" cy="48.4" r="0.67" fill="#e6edf3" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.13;0.5" dur="5.23s" begin="3.44s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="65.1" cy="15.3" r="0.98" fill="#e6edf3" opacity="0.44">
+      <animate attributeName="opacity" values="0.44;0.11;0.44" dur="5.07s" begin="4.13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="267.8" cy="192.7" r="0.45" fill="#e6edf3" opacity="0.76">
+      <animate attributeName="opacity" values="0.76;0.19;0.76" dur="2.84s" begin="1.01s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="628.5" cy="126.6" r="0.9" fill="#e6edf3" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.15;0.62" dur="5.43s" begin="2.65s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="628" cy="124" r="0.8" fill="#e6edf3" opacity="0.29">
+      <animate attributeName="opacity" values="0.29;0.07;0.29" dur="2.7s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="525.1" cy="205.4" r="0.91" fill="#e6edf3" opacity="0.24">
+      <animate attributeName="opacity" values="0.24;0.06;0.24" dur="3.6s" begin="3.41s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1097.6" cy="106.7" r="1.43" fill="#e6edf3" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.10;0.4" dur="4.08s" begin="4.62s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="138.7" cy="161.3" r="1" fill="#e6edf3" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.17;0.68" dur="5.17s" begin="1.55s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="540.2" cy="192.3" r="0.93" fill="#e6edf3" opacity="0.36">
+      <animate attributeName="opacity" values="0.36;0.09;0.36" dur="3.19s" begin="3.01s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="821.2" cy="107" r="1.32" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="3.73s" begin="3.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="857.4" cy="36.1" r="0.42" fill="#e6edf3" opacity="0.77">
+      <animate attributeName="opacity" values="0.77;0.19;0.77" dur="5.26s" begin="2.03s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="813.4" cy="196.9" r="0.72" fill="#e6edf3" opacity="0.52">
+      <animate attributeName="opacity" values="0.52;0.13;0.52" dur="3.89s" begin="1.01s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="1133.8" cy="112" r="0.69" fill="#e6edf3" opacity="0.28">
+      <animate attributeName="opacity" values="0.28;0.07;0.28" dur="3.63s" begin="1.91s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="820.6" cy="159.2" r="1" fill="#e6edf3" opacity="0.57">
+      <animate attributeName="opacity" values="0.57;0.14;0.57" dur="4.77s" begin="1.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="242.5" cy="186.8" r="0.81" fill="#e6edf3" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.14;0.58" dur="2.6s" begin="2.33s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="134.2" cy="126.6" r="0.69" fill="#e6edf3" opacity="0.51">
+      <animate attributeName="opacity" values="0.51;0.13;0.51" dur="2.56s" begin="1.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="708.4" cy="13.1" r="0.46" fill="#e6edf3" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="4.67s" begin="1.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="68.1" cy="193.6" r="0.76" fill="#e6edf3" opacity="0.76">
+      <animate attributeName="opacity" values="0.76;0.19;0.76" dur="2.53s" begin="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </circle>
+
+    <g transform="translate(58, 0)">
+      <text x="0" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="66" font-weight="700" letter-spacing="10" fill="url(#nameFill)">H L O N G</text>
+      <text x="4" y="152" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b949e" clip-path="url(#frame)">
+        <tspan>software engineering  ×  artificial intelligence</tspan>
+        <animate attributeName="clip-path" values="inset(0 100% 0 0);inset(0 0% 0 0)" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1" begin="0.3s"/>
+      </text>
+      <text x="4" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e" opacity="0.72">// aviation nerd  ·  vnu-hcmut  ·  iet-08</text>
+      <rect x="4" y="196" width="212" height="2" rx="1" fill="url(#rule)"/>
+    </g>
+
+    <rect x="-260" y="0" width="180" height="240" fill="url(#sweep)" transform="skewX(-18)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 1560 0" dur="7.5s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="opacity" values="0;0.55;0.55;0" dur="7.5s" repeatCount="indefinite" begin="1.2s"/>
+    </rect>
+
+    <rect width="1180" height="240" fill="url(#vignette)"/>
+    <rect x="0.5" y="0.5" width="1179" height="239" rx="16" ry="16" fill="none" stroke="#3fb950" stroke-opacity="0.22"/>
+  </g>
+</svg>

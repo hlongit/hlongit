@@ -1,0 +1,25 @@
+{
+  "username": "hlongit",
+  "name": "HLong",
+  "pronouns": "he/him",
+  "site": "https://rihikaku.net/",
+
+  "banner": {
+    "line1": "H L O N G",
+    "line2": "software engineering  ×  artificial intelligence",
+    "line3": "// aviation nerd  ·  vnu-hcmut  ·  iet-08",
+    "font": "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
+    "width": 1180,
+    "height": 240
+  },
+
+  "divider": {
+    "width": 1180,
+    "height": 40
+  },
+
+  "avatarRing": {
+    "size": 220,
+    "stroke": 2
+  }
+}

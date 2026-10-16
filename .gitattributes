@@ -1,0 +1,16 @@
+# Normalize everything to LF in the repo. The generated SVGs are byte-compared
+# for determinism, so CRLF churn would produce noisy, meaningless diffs.
+* text=auto eol=lf
+
+*.svg   text eol=lf
+*.md    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+
+# Binary-ish assets stay untouched.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ico   binary
