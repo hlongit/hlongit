@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 240" width="1180" height="240" role="img" aria-label="H L O N G — software engineering  ×  artificial intelligence">
   <defs>
+    <path id="jetSilhouette" d="M270.7 9.7C268.2 3.8 262.4 0 256 0s-12.2 3.8-14.7 9.7l-44.1 102.9c-3.4 8-5.2 16.5-5.2 25.2v77l-144 84V280c0-13.3-10.7-24-24-24S0 266.7 0 280v112c0 13.3 10.7 24 24 24s24-10.7 24-24v-8h144v32.7L133.5 468c-3.5 3-5.5 7.4-5.5 12v16c0 8.8 7.2 16 16 16h96v-64c0-8.8 7.2-16 16-16s16 7.2 16 16v64h96c8.8 0 16-7.2 16-16v-16c0-4.6-2-9-5.5-12L320 416.7V384h144v8c0 13.3 10.7 24 24 24s24-10.7 24-24V280c0-13.3-10.7-24-24-24s-24 10.7-24 24v18.8l-144-84v-77c0-8.7-1.8-17.2-5.2-25.2z"/>
     <linearGradient id="auroraA" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#3fb950" stop-opacity="0.55"/>
       <stop offset="55%" stop-color="#39d353" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="auroraB" x1="1" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.42"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.14"/>
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.30"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
@@ -17,13 +18,17 @@
       <stop offset="55%" stop-color="#e6edf3" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#e6edf3" stop-opacity="0"/>
     </linearGradient>
+    <!-- Name fill: a slow shimmer that stays in the green family end to end, so
+         the letters never read as blue no matter where the sweep lands. The
+         travelling highlight is a lighter green rather than a hue shift. -->
     <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#e6edf3"/>
-      <stop offset="42%" stop-color="#7ee787"/>
-      <stop offset="72%" stop-color="#39d353"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
-      <animate attributeName="x1" values="-0.35;1.15" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1.5" dur="9s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#7ee787"/>
+      <stop offset="30%" stop-color="#7ee787"/>
+      <stop offset="50%" stop-color="#c9ffd6"/>
+      <stop offset="70%" stop-color="#39d353"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+      <animate attributeName="x1" values="-0.3;1.0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.2;1.5" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#3fb950" stop-opacity="0.9"/>
@@ -322,8 +327,29 @@
       <animate attributeName="opacity" values="0.76;0.19;0.76" dur="2.53s" begin="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
     </circle>
 
+    <!-- F-15 watermark: large and faint, sitting over the dimmer centre-left of
+         the canvas so the aurora does not tint it blue. Drawn after the starfield
+         but before the text, and kept very low-contrast so it reads as texture
+         rather than as a foreground object.
+
+         Transform order matters: scale-then-translate centres the 512x512 glyph
+         on the origin. Swapping the order scales the translation too and throws
+         the jet off-canvas entirely. -->
+    <g opacity="0.07">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="690 128; 676 134; 690 128" dur="26s" repeatCount="indefinite"
+          calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <g transform="scale(0.5) translate(-256 -256)">
+          <use href="#jetSilhouette" fill="#7ee787"/>
+        </g>
+      </g>
+    </g>
+
     <g transform="translate(58, 0)">
       <text x="0" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="66" font-weight="700" letter-spacing="10" fill="url(#nameFill)">H L O N G</text>
+      <use href="#jetSilhouette" fill="#7ee787" opacity="0.9"
+        transform="translate(432 88) scale(0.058) translate(-256 -256)"/>
       <text x="4" y="152" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b949e" clip-path="url(#frame)">
         <tspan>software engineering  ×  artificial intelligence</tspan>
         <animate attributeName="clip-path" values="inset(0 100% 0 0);inset(0 0% 0 0)" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1" begin="0.3s"/>

@@ -15,11 +15,17 @@
 
   "divider": {
     "width": 1180,
-    "height": 40
+    "height": 52
   },
 
   "avatarRing": {
     "size": 220,
     "stroke": 2
+  },
+
+  "f15": {
+    "recolorTop": false,
+    "blueprintInk": "#7ee787",
+    "blueprintInkDim": "#3fb950"
   }
 }

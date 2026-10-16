@@ -5,7 +5,10 @@
   "description": "GitHub profile README for hlongit — generated SVG assets, zero dependencies.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/generate-assets.mjs",
+    "build": "node scripts/generate-assets.mjs && node scripts/build-jet-assets.mjs",
+    "build:ui": "node scripts/generate-assets.mjs",
+    "build:jets": "node scripts/build-jet-assets.mjs",
+    "compare:jets": "node scripts/compare-f15-candidates.mjs",
     "watch": "node --watch scripts/generate-assets.mjs"
   },
   "engines": {
