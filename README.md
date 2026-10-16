@@ -19,7 +19,6 @@ const hlong = {
   name:      "HLong",
   pronouns:  "he/him",
   handle:    "hlongit",
-  school:    "VNU-HCMUT — IET-08",
   major:     ["Software Engineering", "Artificial Intelligence"],
   site:      "https://rhikaku.net/",
   nerdAbout: ["aviation", "virtual companion", "reinforcement learning", "plugin architecture"],
